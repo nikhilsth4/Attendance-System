@@ -1,0 +1,39 @@
+.detailContainer {
+  display: flex;
+  gap: 10%;
+}
+
+.label {
+  color: var(--gray);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.value {
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  flex-basis: 30%;
+}
+.buttonContainer {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.accent {
+  color: var(--accent);
+}

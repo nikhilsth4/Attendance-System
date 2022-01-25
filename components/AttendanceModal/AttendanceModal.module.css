@@ -1,0 +1,55 @@
+.formContainer {
+  width: 33rem;
+}
+.radioContainer {
+  margin-bottom: 1.8rem;
+}
+
+.formGroup {
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.formControl {
+  width: 100%;
+  border-radius: 0.4rem;
+  padding: 2.2rem 5.6rem 2.2rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+  border: 2px solid var(--gray);
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  margin-bottom: 1.8rem;
+}
+
+.label {
+  color: var(--gray);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.value {
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.errorText {
+  font-size: 12px;
+  color: var(--primary);
+  text-align: right;
+}
+
+@media (min-width: 962px) {
+  .formContainer {
+    width: 54.2rem;
+  }
+  .errorText {
+    text-align: center;
+  }
+}

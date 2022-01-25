@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--accent);
+  border-radius: 1rem;
+  text-align: center;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  box-shadow: 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.4rem;
+}
+
+.headerTitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+}

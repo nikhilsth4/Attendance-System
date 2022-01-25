@@ -1,0 +1,64 @@
+.button {
+  border: 0;
+  width: 100%;
+  border-radius: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1.4rem;
+}
+
+.button.lg {
+  padding: 2rem;
+}
+
+.button.md {
+  padding: 1rem;
+}
+
+.button.sm {
+  padding: 0.5rem;
+}
+
+.button.primary {
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: 0px 2px 3px var(--gray);
+}
+
+.button.primary:hover {
+  background-color: hsl(0, 100%, 68%);
+}
+
+.button.primary:disabled {
+  background-color: hsl(0, 100%, 84%);
+}
+
+.button.secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+  box-shadow: 0px 2px 3px var(--gray);
+}
+
+.button.secondary:hover {
+  background-color: hsl(154, 59%, 41%);
+}
+
+.button.secondary:disabled {
+  background-color: hsl(154, 59%, 71%);
+}
+
+.button.accent {
+  background-color: var(--accent);
+  color: var(--white);
+  box-shadow: 0px 2px 3px var(--gray);
+}
+
+.button.accent:hover {
+  background-color: hsl(248, 32%, 59%);
+}
+
+.button.accent:disabled {
+  background-color: hsl(248, 32%, 59%);
+}

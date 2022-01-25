@@ -1,0 +1,70 @@
+.login {
+  padding: 9.8rem 0 7rem;
+}
+
+.description {
+  text-align: center;
+  max-width: 31rem;
+  margin: auto;
+  margin-bottom: 7rem;
+}
+
+.descriptionTitle {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.descriptionDetail {
+  margin-top: 3.6rem;
+  font-weight: 400;
+}
+.cardContainer {
+  width: 33rem;
+  margin: auto;
+}
+
+.termsText {
+  color: var(--gray);
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.submitAttendance {
+  display: block;
+  margin-left: 0.4rem;
+}
+
+.submitAttendance:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}
+
+@media (min-width: 962px) {
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .description {
+    text-align: left;
+    margin: initial;
+    max-width: 49.2rem;
+  }
+  .descriptionTitle {
+    font-size: 38px;
+  }
+  .descriptionDetail {
+    font-size: 1.4rem;
+  }
+  .cardContainer {
+    max-width: 54.2rem;
+    margin: initial;
+    flex-basis: 54.2rem;
+    height: 45rem;
+  }
+  .submitAttendance {
+    display: inline-block;
+  }
+}
