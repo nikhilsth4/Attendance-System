@@ -112,10 +112,14 @@ const AttendanceModal = ({
                       checkedOut: moment().format("HH:mm"),
                     }
                     const newAttendances = attendances.map(
-                      (attendance: AttendanceInterface) =>
-                        attendance.username === attendedToday.username
-                          ? newAttendance
-                          : attendance
+                      (attendance: AttendanceInterface) => {
+                        if (attendance.date === attendedToday.date) {
+                          if (attendance.username === formData.username) {
+                            return newAttendance
+                          }
+                        }
+                        return attendance
+                      }
                     )
                     setOpenModal(false)
                     setFormData({
